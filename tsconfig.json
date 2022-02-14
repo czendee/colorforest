@@ -3,12 +3,25 @@
         "./src/**/*"
     ],
     "compilerOptions": {
+        "noFallthroughCasesInSwitch": true,
         "strict": true,
         "esModuleInterop": true,
         "lib": [
             "dom",
             "es2015"
         ],
+        "target": "es5",
+        "allowJs": true,
+        "skipLibCheck": true,
+
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
         "jsx": "react-jsx"
     }
 }
+
