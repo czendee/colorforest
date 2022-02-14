@@ -3,7 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm install -g npm@6 && npm install && npm run build
+  - init: npm install -g npm@6 && npm install &&  npm i --save-dev @types/three &&  npm run build
     command: npm run start
 vscode:
   extensions:
