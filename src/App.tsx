@@ -1,6 +1,8 @@
 import "./styles.css";
 import { StandardEnvironment, Background, Fog, Image } from "spacesvr";
-import Cubes from "./Cubos2";
+import Cubes from "./Cubes";
+import Textotes from "./Textosf";
+
 import * as THREE from "three";
 import FollowPlayer from "./FollowPlayer";
 import GroovyLight from "./GroovyLight";
@@ -85,7 +87,11 @@ export default function App() {
     <StandardEnvironment>
       <Background color="white" />
       <Fog color={new THREE.Color("white")} near={0} far={20} />
+
+
       <Cubes parametrito={otro} libros={arrLibros} stocks={stocks} />
+      <Textotes parametrito={otro} libros={arrLibros} stocks={stocks} />
+
       <ambientLight />
 
       <FollowPlayer>
