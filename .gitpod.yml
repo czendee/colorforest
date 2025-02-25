@@ -10,5 +10,5 @@ vscode:
     - dbaeumer.vscode-eslint
 ports:
   - port: 1337      
-      protocol: https
+    protocol: https
 
