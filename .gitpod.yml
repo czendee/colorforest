@@ -8,9 +8,7 @@ tasks:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
-
 ports:
-    - name: Color Application
-      port: 3000
+  - port: 1337      
       protocol: https
 
