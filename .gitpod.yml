@@ -9,6 +9,6 @@ vscode:
   extensions:
     - dbaeumer.vscode-eslint
 ports:
-  - port: 1337      
-    protocol: https
+  - port: 8080
+    onOpen: open-preview
 
