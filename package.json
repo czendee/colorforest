@@ -27,6 +27,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "@babel/core": "^7.16.0"
+  }
   "overrides": {
     "caniuse-lite": "1.0.30001632"
   },
